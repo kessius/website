@@ -32,7 +32,7 @@
                          type="text"
                          id="s"
                          name="s"
-                         onclick="this.value"></input> 
+                         onclick="this.value"/> 
                         <input  class="searchsubmit"
                          value=""
                          type="submit"/>
