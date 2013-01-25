@@ -1,0 +1,63 @@
+/*...............========== [[ BODY]]========............*/
+
+*{margin: 0px; padding: 0px;}
+body{background: url(images/bg-fox.gif);}
+a{text-decoration: none; cursor: pointer;}
+img{border: 0px;}
+#conteudo-geral{width: 960px; background: #fff; margin: 0 auto;}
+#divclear{clear:both;}
+#topo{width: 940px; margin: 0 auto; height: 203px; font-size: 16px;
+      font-family: "Helvetica", "Trebuchet MS",Arial,sans-serif;}
+#logo{float: left; margin: 5px 5px 10px 10px;}
+
+/*...............========== [[ SEARCH FORM]]========............*/
+
+#form{margin: 0; padding: 0;}
+#search{height: 30px; background: url("imagens/inputbusca3.png") repeat scroll 0 0 #FFFFFF;}
+#searchform{margin: 5px 0 0 0; padding: 0px; line-height: 28px;}
+.searchright{float: right;padding-top: 2px;}
+.searchinput{width: 187px;margin: 1px;font-size: 20px;border: 0px solid #E6E6E6; background: none;}
+.searchsubmit{background: url("imagens/search.btn.png")repeat scroll 0 0 transparent; float: right;
+              width: 72px;height: 30px;margin: 0px;border: 0 solid #DDDDDD; color: #333333;}
+#baner-topo{float: left;  padding: 5px; border: 1px solid #CCC; margin: 10px 0 5px 0;}
+
+/*...............========== [[MINi-MENU]]========...............*/
+
+#mini_menu{position: absolute; top: 2px; left: 650px; width: 240px;height: 28px;border-top: 1px solid #f1f011;
+                     background: url("imagens/bg_menu.gif") repeat-x scroll left bottom transparent;}       
+#mini_menu li{display: inline; font-size: 16px; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+              font-weight: bold; float: right; margin: 0 10px 0 0px;}
+#mini_menu li a{text-decoration: none;}
+#mini_menu .menu_categorias li.anuncio{color: #90BED8;}
+#mini_menu.menu_categorias li.cadastro{color: #A80000;}
+#mini_menu.menu_categorias li.login{color: #093;}
+#mini_menu.menu_categorias li a:hover{text-decoration: underline;}
+
+/*...............========== [[  MENU]]========..................*/
+
+#menu{float: left; width: 940px; height: 28px; background: url("imagens/bg_menu.gif") repeat-x scroll left beige; 
+      border-top: 1px solid #f1f0f0; margin: 5px 0 20px 0px;}
+#menu .menu_categorias{float: left; line-height: normal;}
+#menu .menu_categorias li{display: inline; font-family: "Trebuchet MS",Arial, helvetica, sans-serif; margin: 2;
+                          font-size: 16px; font-weight: bold; float: left;}
+#menu .menu_categorias li a{text-decoration: none;}
+#menu .menu_categorias li .home{color: #0066AB;}
+#menu .menu_categorias li .noticias{color: #080000;}
+#menu .menu_categorias li .esportes{color: #093;}
+#menu .menu_categorias li .entretenemento{color: #F90;}
+#menu .menu_categorias li .tecnologia{color: #069;}
+#menu .menu_categorias li .cursos{color: #B12CAC;}
+#menu .menu_categorias li .contato{color: #298d87; margin: 0px 5px 20px 0px;}
+#menu .menu_categorias li .a:hover{text-decoration: underline;}
+#menu-borda-topo{border-bottom-left-radius: 1px; border-bottom-right-radius: 1px; border-top-left-radius: 1px;
+                 border-top-right-radius: 0; font-size: 1px; height: 4px; margin-bottom: 0;
+                 border-top-righ: 0;font-size: 1px; height:4px; margin-bottom: 0;
+                 margin-top: -1px;overflow-x:hidden; overflow-y: hidden; width: 940px;}
+
+
+/*...............========== [[ BOX CENTRAL]]========............*/
+
+#box-central{width: 940px; margin: 0 auto;}
+#primeiro-bloco{height:500px;margin: 10px 0 10px 0;}
+.primeiro-bloco-esquerdo{background: #EED279; width: 620px; height: 493px;float: left;margin-right: 10px;}
+.primeiro-bloco-direito{background: #95CBE9;width: 300px; height: 493px;float: left;margin-l: 10px;}
